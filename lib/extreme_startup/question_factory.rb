@@ -43,8 +43,8 @@ module ExtremeStartup
     def delay_before_next
       case result
         when "correct"        then 5
-        when "wrong"          then 10
-        else 20
+        when "wrong"          then 20
+        else 30
       end
     end
     
